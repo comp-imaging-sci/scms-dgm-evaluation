@@ -1,6 +1,6 @@
-## A Method for Evaluating Deep Generative Models of Images via Assessing the Reproduction of High-order Spatial Context<br><sub>Implementation of the post-hoc analyses employed in the paper.</sub>
+## A Method for Evaluating Deep Generative Models of Images via Reproducible High-order Spatial Context<br><sub>Implementation of the post-hoc analyses employed in the paper.</sub>
 
-**A Method for Evaluating Deep Generative Models of Images via Assessing the Reproduction of High-order Spatial Context**<br>
+**A Method for Evaluating Deep Generative Models of Images via Reproducible High-order Spatial Context**<br>
 Rucha Deshpande, Mark A. Anastasio, Frank J. Brooks<br>
 [Paper](https://arxiv.org/abs/2111.12577v2)<br>
 [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HHF4AF)<br> 
