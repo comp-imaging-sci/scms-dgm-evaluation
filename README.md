@@ -1,13 +1,13 @@
-## A Method for Evaluating Deep Generative Models of Images via Reproducible High-order Spatial Context<br><sub>Implementation of the post-hoc analyses employed in the paper.</sub>
+## A Method for Evaluating Deep Generative Models of Images for Hallucinations in High-order Spatial Context<br><sub>Implementation of the post-hoc analyses employed in the paper.</sub>
 
-**A Method for Evaluating Deep Generative Models of Images via Reproducible High-order Spatial Context**<br>
+**A method for evaluating deep generative models of images for hallucinations in high-order spatial context**<br>
 Rucha Deshpande, Mark A. Anastasio, Frank J. Brooks<br>
-[Paper](https://arxiv.org/abs/2111.12577v2)<br>
+[Paper](https://www.sciencedirect.com/science/article/pii/S0167865524002551)<br>
 [Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HHF4AF)<br> 
 
 Abstract: *Deep generative models (DGMs) have the potential to revolutionize diagnostic imaging. Generative adversarial networks (GANs) are one kind of DGM which are widely employed. The overarching problem with deploying GANs, and other DGMs, in any application that requires domain expertise in order to actually use the generated images is that there generally is not adequate or automatic means of assessing the domain-relevant quality of generated images. In this work, we demonstrate several objective tests of images output by two popular GAN architectures. We designed several stochastic context models (SCMs) of distinct image features that can be recovered after generation by a trained GAN. Several of these features are high-order, algorithmic pixel-arrangement rules which are not readily expressed in covariance matrices. We designed and validated statistical classifiers to detect specific effects of the known arrangement rules. We then tested the rates at which two different GANs correctly reproduced the feature context under a variety of training scenarios, and degrees of feature-class similarity. We found that ensembles of generated images can appear largely accurate visually, and show high accuracy in ensemble measures, while not exhibiting the known spatial arrangements. Furthermore, GANs trained on a spectrum of distinct spatial orders did not respect the given prevalence of those orders in the training data. The main conclusion is that SCMs can be engineered to quantify numerous errors, per image, that may not be captured in ensemble statistics but plausibly can affect subsequent use of the GAN-generated images.*
 
-**Update:** We have recently employed this method to evaluate the behavior of diffusion generative models and are currently exploring other popular DGMs. Some results are reported [here](https://arxiv.org/abs/2309.10817).
+**Update:** We have recently employed this method to evaluate the behavior of diffusion generative models and are currently exploring other popular DGMs. Some results are reported [here](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10557679).
 
 
 ## Usage
@@ -108,11 +108,14 @@ If several datasets are analyzed, these three folders would be the parent folder
 If you employ this code for your research, please cite out paper:
 
 ```
-@article{deshpande2023method,
-  title={A method for evaluating deep generative models of images via assessing the reproduction of high-order spatial context},
+@article{deshpande2024method,
+  title={A method for evaluating deep generative models of images for hallucinations in high-order spatial context},
   author={Deshpande, Rucha and Anastasio, Mark A and Brooks, Frank J},
-  journal={arXiv preprint arXiv:2111.12577v2},
-  year={2023}
+  journal={Pattern Recognition Letters},
+  volume={186},
+  pages={23--29},
+  year={2024},
+  publisher={Elsevier}
 }
 
 ```
